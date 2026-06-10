@@ -8,6 +8,32 @@ plus the optimisation and tooling that makes computing it bearable.
 
 ---
 
+**[PLE-SBS](https://github.com/AdithyaKesanJayakanth/PLE-SBS)** · *one wire, a switch yard and a bay for every pod*
+
+In the hours before a crewed launch, the crew and close-out technicians work 40–115 m above
+a fully fuelled rocket. NASA's way down is the slidewire: baskets riding steel ropes under
+gravity to a landing area hundreds of metres away. Every existing system gives each basket
+its own wire and brakes it at the end of that wire, and each was engineered for one pad.
+
+PLE-SBS is a method for sizing a slidewire at any launch pad. Its model reproduces the
+Shuttle baskets' top speed without tuning (24.0 m/s predicted, about 24.6 m/s reported) and
+shows that passive magnetic braking only works when the span is about 100 m + 4 × the crew
+access height.
+
+**My special add-on to the existing egress system: one wire, a switch yard and a bay for
+every pod.** The braking moves off the wire. At the bottom, self-indexing points send each
+pod into its own braked bay beside the bunker, so every pod shares one wire and leaves about
+8 s after the one ahead. One wire clears 24 people almost as fast as six separate wires in a
+design headwind, a pod whose brake has failed still stops at 1.4 g, and nothing needs power.
+
+The repository has the paper, the simulator, and the CAD parts and test protocol for a
+tabletop scale model. Try the simulator or read the paper at
+[adithyakesan.com/ple_sbs](https://adithyakesan.com/ple_sbs/).
+
+*Mentor and guide: Mrs. Abitha Peter, my Class 12 physics teacher.*
+
+---
+
 **[AETHER](https://github.com/AdithyaKesanJayakanth/aether)** · *when cooler is not safer*
 
 A re-entry vehicle is normally designed against peak heat flux, the worst instant of
@@ -25,6 +51,8 @@ reduction in peak heat flux produced a 114 K *hotter* bondline. OpenFOAM CFD is 
 
 The repository keeps its negative results, including two of my own bugs and the
 boundary condition that diverged on the first run.
+
+*Mentor and guide: Mrs. Abitha Peter, my Class 12 physics teacher.*
 
 ---
 
