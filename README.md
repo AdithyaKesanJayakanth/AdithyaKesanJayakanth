@@ -28,10 +28,24 @@ boundary condition that diverged on the first run.
 
 ---
 
-**[SIMC Foundations](https://github.com/AdithyaKesanJayakanth/SIMC-Foundations)** · linear algebra
-from zero, in five days, for the Singapore International Mathematics Challenge. The
-competition task was PCA and clustering on 1,000 infrared spectra; this is the working
-that got me to the point of being able to attempt it.
+**[SIMC 2026](https://github.com/AdithyaKesanJayakanth/SIMC2026)** · *how many drinks are in the table?*
+
+The Endeavour challenge at the Singapore International Mathematics Challenge: a 1,000 × 3,401
+table of infrared spectra from an unknown number of fermented drinks, with errors planted in
+it. Clean it, then work out how many distinct samples were actually measured.
+
+PCA showed the data is strongly low-dimensional — an eight-dimensional signal inside 3,401 dimensions
+(λ₁/λ₂ ≈ 3.5). Clustering the vials two mathematically equivalent ways, through the
+covariance matrix and through the Gram matrix, gave identical answers: 26 unique samples,
+about 37 repeat measurements each. One of those 26 is a group of 36 vials I had first thrown
+out as anomalous; it turned out to be a real, concentrated drink, and keeping the cleaning
+step reversible is the only reason the count came out right.
+
+The repository has the full working across the four days of the event — the notebook, the
+Markov-chain and power-method/SVD proofs, the report, and the defense deck.
+
+**[SIMC Foundations](https://github.com/AdithyaKesanJayakanth/SIMC-Foundations)** · the linear
+algebra from zero, in five days, that got me to the point of being able to attempt it.
 
 ---
 
