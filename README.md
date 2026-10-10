@@ -37,13 +37,14 @@ it. Clean it, then work out how many distinct samples were actually measured.
 PCA showed the data is strongly low-dimensional — an eight-dimensional signal inside
 3,401 dimensions (λ₁/λ₂ ≈ 3.5). Clustering the vials two mathematically equivalent ways,
 through the covariance matrix and through the Gram matrix, gave identical answers: 25
-groups. The last one was hiding in what I had removed — 36 vials I first discarded as
+groups. The last one was hiding in what we had removed — 36 vials we first discarded as
 anomalous turned out to be a real, concentrated drink. Putting them back gives 26 unique
 samples, about 37 repeat measurements each; keeping the cleaning step reversible is the
 only reason the count came out right.
 
-The repository has the full working across the four days of the event — the notebook, the
-Markov-chain and power-method/SVD proofs, the report, and the defense deck.
+A team of three, with K. Vishnu Kumar and Adithya Anand. The repository has the full
+working across the four days of the event — the notebook, the Markov-chain and
+power-method/SVD proofs, the report, and the defense deck.
 
 **[SIMC Foundations](https://github.com/AdithyaKesanJayakanth/SIMC-Foundations)** · the linear
 algebra from zero, in five days, that got me to the point of being able to attempt it.
