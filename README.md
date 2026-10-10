@@ -34,12 +34,13 @@ The Endeavour challenge at the Singapore International Mathematics Challenge: a 
 table of infrared spectra from an unknown number of fermented drinks, with errors planted in
 it. Clean it, then work out how many distinct samples were actually measured.
 
-PCA showed the data is strongly low-dimensional — an eight-dimensional signal inside 3,401 dimensions
-(λ₁/λ₂ ≈ 3.5). Clustering the vials two mathematically equivalent ways, through the
-covariance matrix and through the Gram matrix, gave identical answers: 26 unique samples,
-about 37 repeat measurements each. One of those 26 is a group of 36 vials I had first thrown
-out as anomalous; it turned out to be a real, concentrated drink, and keeping the cleaning
-step reversible is the only reason the count came out right.
+PCA showed the data is strongly low-dimensional — an eight-dimensional signal inside
+3,401 dimensions (λ₁/λ₂ ≈ 3.5). Clustering the vials two mathematically equivalent ways,
+through the covariance matrix and through the Gram matrix, gave identical answers: 25
+groups. The last one was hiding in what I had removed — 36 vials I first discarded as
+anomalous turned out to be a real, concentrated drink. Putting them back gives 26 unique
+samples, about 37 repeat measurements each; keeping the cleaning step reversible is the
+only reason the count came out right.
 
 The repository has the full working across the four days of the event — the notebook, the
 Markov-chain and power-method/SVD proofs, the report, and the defense deck.
