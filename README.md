@@ -65,7 +65,7 @@ table of infrared spectra from an unknown number of food samples, with errors pl
 Clean it, then work out how many distinct samples were actually measured.
 
 PCA showed the data is strongly low-dimensional — an eight-dimensional signal inside
-3,401 dimensions (λ₁/λ₂ ≈ 3.5). Using PCA, we narrowed about 1,000 samples in 3,401
+3,401 dimensions (λ₁/λ₂ ≈ 3.5). Using PCA, we narrowed 1,000 samples with 3,401
 dimensions to 25 samples. Clustering the vials two mathematically equivalent ways, through
 the covariance matrix and through the Gram matrix, gave identical answers.
 
