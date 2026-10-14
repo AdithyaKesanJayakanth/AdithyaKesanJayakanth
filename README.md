@@ -34,26 +34,25 @@ tabletop scale model. Try the simulator or read the paper at
 
 ---
 
-**[AETHER](https://github.com/AdithyaKesanJayakanth/aether)** · *when cooler is not safer*
+**[AETHER-Capstone](https://github.com/AdithyaKesanJayakanth/AETHER-Capstone)** · *which capsule shape slows you down without burning you up?*
 
-A re-entry vehicle is normally designed against peak heat flux, the worst instant of
-heating on its outer surface. But heat shields do not fail at the surface — they fail at
-the bondline, where the shield meets the structure, and the bondline responds to the
-integral rather than the peak.
+A re-entry capsule needs drag to slow down, and the blunt face that makes the drag is where
+the gas is hottest. AETHER asks how three shape parameters of an Apollo-like capsule — nose
+radius, shoulder radius, cone angle — move its drag coefficient and the peak heat flux on
+the heat shield, at one fixed condition: the Apollo wind-tunnel test NASA published in 1966,
+so there was real data to be judged against.
 
-Those two quantities are not optimised by the same trajectory. AETHER measures the gap:
-a verified atmosphere / 3-DOF trajectory / stagnation-heating / transient-conduction
-chain in Python, with the conduction solver checked against an analytical solution to
-0.002% before it was used for anything.
+Twenty shapes, laminar Navier–Stokes in SU2 on structured meshes drawn from one parameter
+table, a three-level mesh study, two NASA benchmarks, and a selection rule written before
+any result. Drag follows the nose and shoulder radius; the cone angle does nothing (0.4 %);
+the heating peak lives at the shoulder; and a nose radius of one diameter gives 5 % less
+peak heating for under 2 % of drag, four times the margin measured by refinement.
 
-Over the domain tested so far, the two metrics are perfectly anti-ordered — a 38%
-reduction in peak heat flux produced a 114 K *hotter* bondline. Drag comes from a
-response surface fitted to 69 OpenFOAM CFD cases from Mach 3 to 27.
-
-The repository keeps its negative results, including two of my own bugs and the
-boundary condition that diverged on the first run.
-
-*Mentor and guide: Mrs. Abitha Peter, my Class 12 physics teacher.*
+The part I did not plan: the solver converged to a wrong answer. A carbuncle — a numerical
+shock mode with the stagnation pressure 12 % above the pitot limit — passed every
+convergence monitor. The fix was in the mesh, not the settings, and the abandoned mesh
+family stays in the repository as a cross-check. Report, poster, a two-minute video, and
+every solver case with its logs are in the repository.
 
 ---
 
