@@ -8,7 +8,7 @@ plus the optimisation and tooling that makes computing it bearable.
 
 ---
 
-**[PLE-SBS](https://github.com/AdithyaKesanJayakanth/PLE-SBS)** · *one wire, a switch yard and a bay for every pod*
+**[PLE-SBS-Capstone](https://github.com/AdithyaKesanJayakanth/PLE-SBS-Capstone)** · *one wire, a switch yard and a bay for every pod*
 
 In the hours before a crewed launch, the crew and close-out technicians work 40–115 m above
 a fully fuelled rocket. NASA's way down is the slidewire: baskets riding steel ropes under
