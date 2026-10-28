@@ -26,11 +26,11 @@ pod into its own braked bay beside the bunker, so every pod shares one wire and 
 8 s after the one ahead. One wire clears 24 people almost as fast as six separate wires in a
 design headwind, a pod whose brake has failed still stops at 1.4 g, and nothing needs power.
 
-The repository has the paper, the simulator, and the CAD parts and test protocol for a
-tabletop scale model. Try the simulator or read the paper at
-[adithyakesan.com/ple_sbs](https://adithyakesan.com/ple_sbs/).
+The repository has the paper, the poster, the simulator, and a print-only 1:50 scale model
+of the wire and the switch yard: its part files, assembly guide and fit checks. Try the
+simulator or read the paper at [adithyakesan.com/ple_sbs](https://adithyakesan.com/ple_sbs/).
 
-*Mentor and guide: Mrs. Abitha Peter, my Class 12 physics teacher.*
+*Mentor and guide: Mrs. Abhitha Peter, my Class 12 physics teacher.*
 
 ---
 
